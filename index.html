@@ -1,28 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Certesbread</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Certesbread</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>Certes</h1>
+  <header>
+    <h1>Certes</h1>
+    <p>I do silly stuff like code and art</p>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="showSection('home')">Home</a></li>
+        <li><a href="#" onclick="showSection('about')">About</a></li>
+        <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <p>I do silly stuff like code and art</p>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Certesbread. All rights reserved.</p>
-    </footer>
+  <main>
+    <section id="home" class="active">
+      <h2>Welcome to Certesbread</h2>
+      <p>Your one-stop destination for all things Certes.</p>
+    </section>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a developer and artist who enjoys creating unique projects.</p>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>If you would like to get in touch, please reach out via email.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Certesbread. All rights reserved.</p>
+  </footer>
 </body>
 </html>
