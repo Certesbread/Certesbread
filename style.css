@@ -1,6 +1,0 @@
-section {
-    display: none; /* All sections hidden by default */
-  }
-  section.active {
-    display: block; /* Only show the active one */
-  }
